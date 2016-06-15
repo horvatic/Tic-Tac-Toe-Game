@@ -1,5 +1,5 @@
 ﻿module Translator
-open Translate
+open TicTacToe.Core.Translate
 open TicTacToe.Core.English
 open Spanish
 

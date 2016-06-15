@@ -1,7 +1,7 @@
 ﻿module TranslatorTestSpanish
 
 open Translator
-open Translate
+open TicTacToe.Core.Translate
 open Xunit
 open FsUnit
 

@@ -8,13 +8,13 @@ open TicTacToe.Core.CheckForWinnerOrTie
 open ScreenEdit
 open TicTacToe.Core.GameSettings
 open TicTacToe.Core.GameStatusCodes
-open userInputException
-open PlayerValues
+open TicTacToe.Core.userInputException
+open TicTacToe.Core.PlayerValues
 open IInputOutPut
 open InputOutPut
 open TicTacToe.Core.ITicTacToeBoxClass
 open TicTacToe.Core.TicTacToeBoxClass
-open Translate
+open TicTacToe.Core.Translate
 
 
 let gameEndingMessage( board : ITicTacToeBox) 

@@ -1,12 +1,12 @@
 ﻿module BuildAndStartGame
 open Game
 open TicTacToe.Core.GameSettings
-open PlayerValues
+open TicTacToe.Core.PlayerValues
 open CleanInput
-open userInputException
+open TicTacToe.Core.userInputException
 open InputOutPut
 open IInputOutPut
-open Translate
+open TicTacToe.Core.Translate
 
 let getTicTacToeBoxSize(size : int) : int =
     if size = 3 then

@@ -1,5 +1,5 @@
 ﻿module CleanInput
-open userInputException
+open TicTacToe.Core.userInputException
 exception NonIntError of unit
 exception InvaildOption of unit
 

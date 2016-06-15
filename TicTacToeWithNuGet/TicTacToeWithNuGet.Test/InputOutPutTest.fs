@@ -4,7 +4,7 @@ open Xunit
 open FsUnit
 open System.IO
 open Translator
-open Translate
+open TicTacToe.Core.Translate
 
 [<Fact>]
 let User_Pick_English() =
