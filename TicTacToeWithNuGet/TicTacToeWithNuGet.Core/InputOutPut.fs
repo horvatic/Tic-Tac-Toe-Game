@@ -1,7 +1,7 @@
 ﻿module InputOutPut
 open IInputOutPut
 open Translator
-open Translate
+open TicTacToe.Core.Translate
 
 let newCurrentLanguage() =
     printfn "For English Press 1: "

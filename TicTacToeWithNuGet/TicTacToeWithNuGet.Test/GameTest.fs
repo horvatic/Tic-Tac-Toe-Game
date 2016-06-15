@@ -3,14 +3,14 @@ open Xunit
 open FsUnit
 open Game
 open TicTacToe.Core.GameSettings
-open PlayerValues
+open TicTacToe.Core.PlayerValues
 open TicTacToe.Core.CheckForWinnerOrTie
 open TicTacToe.Core.GameStatusCodes
 open TicTacToe.Core.GameSettings
 open InputOutPutTestGame
 open TicTacToe.Core.TicTacToeBoxClass
 open System.Collections.Generic
-open Translate
+open TicTacToe.Core.Translate
 
 [<Fact>]
 let Ai_Vs_Ai_Ai_Player_Two_First() =

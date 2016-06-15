@@ -4,7 +4,7 @@ open Xunit
 open FsUnit
 open TicTacToe.Core.TicTacToeBoxClass
 open ScreenEditTestInputOut
-open Translate
+open TicTacToe.Core.Translate
 
 [<Fact>]
 let Board_Of_3X3_Simple_Message_Inverted() =

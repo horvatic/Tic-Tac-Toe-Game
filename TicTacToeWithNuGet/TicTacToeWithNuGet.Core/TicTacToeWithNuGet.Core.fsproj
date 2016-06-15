@@ -57,11 +57,8 @@
     <Compile Include="AssemblyInfo.fs" />
     <None Include="App.config" />
     <Compile Include="Spanish.fs" />
-    <Compile Include="PlayerValues.fs" />
     <Compile Include="IInputOutPut.fs" />
-    <Compile Include="Translate.fs" />
     <Compile Include="Translator.fs" />
-    <Compile Include="userInputException.fs" />
     <Compile Include="InputOutPut.fs" />
     <Compile Include="CleanInput.fs" />
     <Compile Include="ScreenEdit.fs" />

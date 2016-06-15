@@ -65,6 +65,7 @@
     <Compile Include="ScreenEditTest.fs" />
     <Compile Include="TranslatorTestEnglish.fs" />
     <Compile Include="TranslatorTestSpanish.fs" />
+    <Compile Include="TicTacToeBoxEditTest.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">

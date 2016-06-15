@@ -2,11 +2,11 @@
 open Xunit
 open FsUnit
 open BuildAndStartGame
-open userInputException
+open TicTacToe.Core.userInputException
 open InputOutPutTestBuildGame
-open PlayerValues
+open TicTacToe.Core.PlayerValues
 open System.Collections.Generic
-open Translate
+open TicTacToe.Core.Translate
 
 [<Fact>]
 let Run_Whole_Game_Once_Huamn_Vs_Human() =

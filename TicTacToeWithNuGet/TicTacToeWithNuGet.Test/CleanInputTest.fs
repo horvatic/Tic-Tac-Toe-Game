@@ -2,7 +2,7 @@
 open Xunit 
 open FsUnit
 open CleanInput
-open userInputException
+open TicTacToe.Core.userInputException
 
 
 [<Fact>]   // test
