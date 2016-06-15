@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8d5d68be-2b3a-435b-8f17-443e40836f27</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>TicTacToeWithNuGet.Core</RootNamespace>
-    <AssemblyName>TicTacToeWithNuGet.Core</AssemblyName>
+    <ProjectGuid>39370e29-1509-4e09-a07b-cc87c3b26b24</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TicTacToeWithNuGet.UI</RootNamespace>
+    <AssemblyName>TicTacToeWithNuGet.UI</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
-    <Name>TicTacToeWithNuGet.Core</Name>
+    <Name>TicTacToeWithNuGet.UI</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\TicTacToeWithNuGet.Core.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\TicTacToeWithNuGet.UI.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\TicTacToeWithNuGet.Core.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\TicTacToeWithNuGet.UI.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -56,18 +56,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <None Include="App.config" />
-    <Compile Include="Spanish.fs" />
-    <Compile Include="PlayerValues.fs" />
-    <Compile Include="IInputOutPut.fs" />
-    <Compile Include="Translate.fs" />
-    <Compile Include="Translator.fs" />
-    <Compile Include="userInputException.fs" />
-    <Compile Include="InputOutPut.fs" />
-    <Compile Include="CleanInput.fs" />
-    <Compile Include="ScreenEdit.fs" />
-    <Compile Include="TicTacToeBoxEdit.fs" />
-    <Compile Include="Game.fs" />
-    <Compile Include="BuildAndStartGame.fs" />
+    <Compile Include="Program.fs" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +72,11 @@
       <HintPath>..\packages\ShawnHorvatic.TicTacToe.Core.0.0.2\lib\TicTacToe.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <ProjectReference Include="..\TicTacToeWithNuGet.Core\TicTacToeWithNuGet.Core.fsproj">
+      <Name>TicTacToeWithNuGet.Core</Name>
+      <Project>{8d5d68be-2b3a-435b-8f17-443e40836f27}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
